@@ -6336,7 +6336,7 @@ __metadata:
     graphql-cli: 3.0.14
     graphql-shield: ^6.1.0
     graphql-yoga: 1.18.3
-    jsonwebtoken: 8.5.1
+    jsonwebtoken: 9.0.0
     nodemon: 1.19.4
     npm-run-all: 4.1.5
     prettier: ^1.18.2
@@ -14683,7 +14683,7 @@ fsevents@^1.2.7:
     graphql: ^14.5.8
     graphql-middleware: ^4.0.1
     graphql-shield: ^6.1.0
-    jsonwebtoken: ^8.5.1
+    jsonwebtoken: ^9.0.0
     nexus: ^0.11.7
     nexus-prisma: ^0.5.0
     nodemon: ^1.19.4
@@ -17583,6 +17583,18 @@ fsevents@^1.2.7:
     ms: ^2.1.1
     semver: ^5.6.0
   checksum: ea44bbb7a7abab87eee57711a04093a2a04a5757faa3253f521327b840e07eff751986ed6c20985886c5aaa86245a833aa1eeda6eacb0c3fa9ea4e7074cdb0c3
+  languageName: node
+  linkType: hard
+
+"jsonwebtoken@npm:9.0.0, jsonwebtoken@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "jsonwebtoken@npm:9.0.0"
+  dependencies:
+    jws: ^3.2.2
+    lodash: ^4.17.21
+    ms: ^2.1.1
+    semver: ^7.3.8
+  checksum: 8b2f16708501d17b56e2a12941a0a8963dbdcda4ea5f8329e2bf1ce235e0dc546e2b7ef0c28ba941e7bda3a2b4ee8b3838e6d8c10c269be4dbee8ca1b744c310
   languageName: node
   linkType: hard
 
@@ -24146,6 +24158,17 @@ fsevents@^1.2.7:
   bin:
     semver: ./bin/semver.js
   checksum: f0d155c06a67cc7e500c92d929339f1c6efd4ce9fe398aee6acc00a2333489cca0f5b4e76ee7292beba237fcca4b5a3d4a6153471f105f56299801bdab37289f
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.8":
+  version: 7.5.0
+  resolution: "semver@npm:7.5.0"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 4c42b34f52e3b1fc1e91e7acffa034bf25305d4c5bc7021ddad20a17efa5c77b2e646915d5b20efb0bce8db3077899281a7c53557684a930a0f8b09408bfa82f
   languageName: node
   linkType: hard
 
